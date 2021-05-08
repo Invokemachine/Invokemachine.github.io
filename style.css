@@ -1,88 +1,92 @@
 #header
 {
-	position: absolute;
-    width: 1440px;
-    height: 1024px;
-    left: 0px;
-    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
 	background: url('image 1.png');	
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 #headerenter
 {
 	position: absolute;
-    width: 679px;
-    height: 756px;
-    left: 760px;
-    top: 2px;
+    width: 35.2%;
+    height: 78.5%;
+    right: 0%;
+    top: 0.3%;
     background: url('image 2.png');
     opacity: 0.8;
+    background-repeat: no-repeat;
+	background-size: contain;
     }
 #menu
 {
 	position: absolute;
-	width: 147px;
-	height: 234px;
-	left: 307px;
-	top: 0px;
+    width: 10.9%;
+    height: 24.5%;
+    left: 28.6%;
+    top: 0%;
 	background: url('image 3.png');
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 #submenu1
 {
-	position: absolute;
-	width: 280px;
-	height: 36px;
-	left: 15px;
-	top: 94px;
+    position: absolute;
+    width: 39.5%;
+    height: 13%;
+    left: 1.1%;
+    top: 35%;
 	background: #15C553;
 }
 #submenu2
 {
-	position: absolute;
-	width: 280px;
-	height: 36px;
-	left: 15px;
-	top: 186px;
+    position: absolute;
+    width: 39.5%;
+    height: 13%;
+    left: 1.1%;
+    top: 78%;
 	background: #15C553;
 }
 #submenu3
 {
 	position: absolute;
-	width: 280px;
-	height: 36px;
-	left: 468px;
-	top: 94px;
+	width: 39.5%;
+    height: 13%;
+	right: 1.1%;
+	top: 35%;
 	background: #15C553;
 }
 #submenu4
 {
 	position: absolute;
-	width: 280px;
-	height: 36px;
-	left: 15px;
-	top: 140px;
+    width: 39.5%;
+    height: 13%;
+    left: 1.1%;
+    top: 57%;
 	background: #15C553;
 }
 #submenu5
 {
 	position: absolute;
-    width: 280px;
-    height: 36px;
-    left: 468px;
-    top: 140px;
+    width: 39.5%;
+    height: 13%;
+    right: 1.1%;
+    top: 57%;
 	background: #15C553;
 }
 #submenu6
 {
-	position: absolute;
-	width: 280px;
-	height: 36px;
-	left: 468px;
-	top: 186px;
+    position: absolute;
+    width: 39.5%;
+    height: 13%;
+    right: 1.1%;
+    top: 78%;
 	background: #15C553;
-}
-#submenu7
-{
-	
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 #submenu8
 {
@@ -92,6 +96,8 @@
 	left: 131px;
 	top: 10px;
 	background: #15C553;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 #submenu9
 {
@@ -106,84 +112,76 @@
 #content
 {
 	position: absolute;
-    width: 365px;
-    height: 275px;
-    left: 8px;
-    top: 299px;
+    width: 60%;
+    height: 45%;
+    left: 8%;
+    top: 8.5%;
 	background: url('image 4.png');
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 #content1
 {
 	position: absolute;
-    width: 365px;
-    height: 275px;
-    left: 385px;
-    top: 299px;
+    width: 60%;
+    height: 45%;
+    right: -17%;
+    top: 8.5%;
 	background: url('image 5.png');
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 #content2
 {
-	position: absolute;
-    width: 365px;
-    height: 275px;
-    left: 8px;
-    top: 580px;
+    position: absolute;
+    width: 60%;
+    height: 45%;
+    left: 8%;
+    top: 53.9%;
 	background: url('image 6.png');
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 #content3
 {
-	position: absolute;
-    width: 365px;
-    height: 275px;
-    left: 385px;
-    top: 580px;
-    background: url('image 7.png');
-}
-#content4
-{
     position: absolute;
-    width: 365px;
-    height: 163px;
-    left: 8px;
-    top: 861px;
-	background: url('image 8.png');
-}
-#content5
-{
-	position: absolute;
-    width: 365px;
-    height: 163px;
-    left: 385px;
-    top: 861px;
-    background: url('image 9.png');
+    width: 60%;
+    height: 45%;
+    right: -17%;
+    top: 53.9%;
+    background: url('image 7.png');
+    background-repeat: no-repeat;
+	background-size: contain;
 }
 #footer
 {
     position: absolute;
-    width: 679px;
-    height: 268px;
-    left: 760px;
-    top: 761px;
+    width: 35.2%;
+    height: 21%;
+    right: 0%;
+    bottom: 0%;
     background: rgba(255, 255, 255, 0.7);
+    background-repeat: no-repeat;
+	background-size: contain;
 }
 #frame1
 {
 	position: absolute;
-	width: 755px;
-	height: 236px;
-	left: 0px;
-	top: 0px;
+	width: 64%;
+    height: 24.3%;
+    left: 0.3%;
+    top: 0.3%;
 	background: #FFFFFF;
 	opacity: 0.7;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #frame2
 {
-	position: absolute;
-    width: 752px;
-    height: 782px;
-    left: 4px;
-    top: 242px;
+    position: absolute;
+    width: 64%;
+    height: 75%;
+    left: 0.3%;
+    top: 25%;
     background: rgba(248, 248, 248, 0.7);
 }
 #frame3
@@ -218,196 +216,196 @@
 #submenu1text
 {
 	position: absolute;
-    width: 70px;
-    height: 29px;
-    left: 103px;
-    top: 5px;
+    width: 75.5%;
+    height: 13%;
+    right: -16.9%;
+    top: 14%;
     font-family: cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 125%;
+    line-height: 85%;
     color: #000000;
 }
 #submenu2text
 {
 	position: absolute;
-    width: 171px;
-    height: 29px;
-    left: 62px;
-    top: 5px;
+    width: 75.5%;
+    height: 13%;
+    right: -4.9%;
+    top: 14%;
     font-family: cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 125%;
+    line-height: 85%;
     color: #000000;
 }
 #submenu3text
 {
 	position: absolute;
-    width: 154px;
-    height: 29px;
-    left: 86px;
-    top: 5px;
+    width: 75.5%;
+    height: 13%;
+    right: -13.9%;
+    top: 14%;
     font-family: cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 125%;
+    line-height: 85%;
     color: #000000;
 }
 #submenu4text
 {
     position: absolute;
-    width: 271px;
-    height: 37px;
-    left: 92px;
-    top: 3px;
+    width: 75.5%;
+    height: 13%;
+    right: -14.9%;
+    top: 14%;
     font-family: cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 125%;
+    line-height: 85%;
     color: #000000;
 }
 #submenu5text
 {
     position: absolute;
-    width: 180px;
-    height: 27px;
-    left: 61px;
-    top: 8px;
+    width: 75.5%;
+    height: 13%;
+    right: -6.9%;
+    top: 14%;
     font-family: cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 21px;
+    font-size: 125%;
+    line-height: 85%;
     color: #000000;
 }
 #submenu6text
 {
 	position: absolute;
-    width: 300px;
-    height: 29px;
-    left: 39px;
-    top: 0px;
+    width: 75.5%;
+    height: 13%;
+    right: 1.1%;
+    top: 14%;
     font-family: cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 125%;
+    line-height: 85%;
     color: #000000;
 }
 #submenu7text
 {
-	position: absolute;
-	width: 179px;
-	height: 45px;
-	left: 288px;
-	top: 242px;
-	font-family: cursive;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 36px;
-	line-height: 45px;
-	color: #000000;
+    position: absolute;
+    width: 3vw;
+    height: 2vw;
+	left: 25%;
+    top: 24%;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.8vw;
+    line-height: 4vw;
+    color: #000000;
 }
 #submenu8text
 {
     position: absolute;
-    width: 239px;
-    height: 29px;
-    left: 26px;
-    top: -6px;
+    width: 100%;
+    height: 60%;
+    left: 16%;
+    top: 3%;
     font-family: cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 29px;
+    font-size: 125%;
+    line-height: 85%;
     color: #000000;
 }
 #submenu9text
 {
-    position: absolute;
-    width: 170px;
-    height: 29px;
-    left: 29px;
-    top: -5px;
+    position: absolute;  
+    width: 100%;
+    height: 60%;
+    left: 16%;
+    top: 3%;
     font-family: cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 19px;
-    line-height: 29px;
+    font-size: 125%;
+    line-height: 85%;
     color: #000000;
 }
 #submenu10text
 {
 	position: absolute;
-	width: 154px;
-	height: 29px;
-	left: 468px;
-	top: 54px;
-	font-family: cursive;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 25px;
-	line-height: 29px;
+    width: 20%;
+    height: 20%;
+    left: 39%;
+    top: 4%;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150%;
+    line-height: 120%;
 	color: #000000;
 }
 #submenu11text
 {
 	position: absolute;
-    width: 271px;
-    height: 37px;
-    left: 19px;
-    top: 54px;
+    width: 20%;
+    height: 20%;
+    left: 1%;
+    top: 4%;
     font-family: cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 150%;
+    line-height: 120%;
     color: #000000;
 }
 #submenu12text
 {
     position: absolute;
-    width: 645px;
-    height: 116px;
-    left: 18px;
-    top: 9px;
+    width: 80%;
+    height: 10%;
+    left: 4%;
+    top: 1%;
     font-family: cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 29px;
+    font-size: 72%;
+    line-height: 150%;
     color: #000000;
 }
 #submenu13text
 {
-	position: absolute;
-	width: 641px;
-	height: 58px;
-	left: 21px;
-	top: 142px;
-	font-family: cursive;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	line-height: 29px;
-	color: #000000;
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    left: 3%;
+    top: 50%;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 111%;
+    line-height: 100%;
+    color: #000000;
 }
 #submenu14text
 {
-	position: absolute;
-	width: 624px;
-	height: 29px;
-	left: 21px;
-	top: 208px;
-	font-family: cursive;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	line-height: 29px;
-	color: #000000;
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    left: 3%;
+    bottom: 10%;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 111%;
+    line-height: 77%;
+    color: #000000;
 }
